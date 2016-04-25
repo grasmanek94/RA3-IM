@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Windows XP|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - All Possible Optimizations (lvl 4)|Win32'">
+    <LocalDebuggerCommand>Z:\Games\Red Alert 3\Data\ra3_1.12.game</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\Red Alert 3\</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>true</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>
+    </LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>Z:\Games\Need for Speed Underground 2\launcher.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\Need for Speed Underground 2</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-M4XM0D_debug</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - All Possible Optimizations (lvl 4) - Windows XP|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Advanced Optimizations|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Advanced Optimizations (lvl 3) - Windows XP|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - More Optimizations|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - More Optimizations (lvl 2) - Windows XP|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Simple Optimizations|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Simple Optimizations (lvl 1) - Windows XP|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>Z:\Games\MOTORM4X Offroad Extreme\bin\MotorM4X.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\MOTORM4X Offroad Extreme\bin\</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>true</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-M4XM0D_debug</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug - Windows XP|Win32'">
+    <LocalDebuggerCommand>Z:\Games\GTASA\gta_sa.exe</LocalDebuggerCommand>
+    <LocalDebuggerWorkingDirectory>Z:\Games\GTASA</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-sa|mod_de|bug</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>

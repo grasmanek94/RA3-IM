@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D3D9">
+      <UniqueIdentifier>{9ae3016e-5310-4986-8c0f-04920b5da7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{2886cbbc-024c-4b16-9056-35404eef0fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{1b9e66d2-fb37-42be-ba84-ae1957fe75d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\main.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\resource.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\stdtypes.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9\d3d9proxy.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9\myIDirect3D9.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9\myIDirect3DDevice9.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9\cd3dfont.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3d9.cpp" />
+    <ClCompile Include="pch\main.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9\d3d9proxy.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9\myIDirect3D9.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9\myIDirect3DDevice9.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9\cd3dfont.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="d3d9.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RA3INFO.def" />
+  </ItemGroup>
+</Project>
